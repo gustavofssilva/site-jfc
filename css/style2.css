@@ -1,0 +1,133 @@
+
+
+.containerSeladoras {
+    max-width: 1000px;
+          margin: 0 auto;
+          display: table;
+          flex-wrap: wrap;
+          
+         
+         margin-bottom: 50px;
+}
+
+.containerSeladoras1 {
+    border-top: 1px solid #de8925;
+    max-width: 1000px;
+   
+          margin: 0 auto;
+          display: table;
+          flex-wrap: wrap;
+          margin-bottom: 50px;
+         
+}
+
+.containerSeladoras2 {
+    border-top: 1px solid #de8925;
+    max-width: 1000px;
+   
+          margin: 0 auto;
+          display: table;
+          flex-wrap: wrap;
+          margin-bottom: 50px;
+}
+
+
+.h1Seladora {  
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: .5em;
+    display: flex;
+    justify-content: center;
+  
+}
+.h1Seladoraa {  
+    margin-top: 20px;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: .5em;
+    display: flex;
+    justify-content: center;
+  
+}
+.PtextoSobre{
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.imgS {
+    display: table-cell;
+    float: left;
+    
+}
+
+.imgS:hover
+        {
+          -moz-box-shadow: 0 0 10px rgb(172, 169, 169);;
+          -webkit-box-shadow: 0 0 10px rgb(172, 169, 169);;
+          box-shadow: 0 0 10px rgb(172, 169, 169);
+          position:relative;top:0;padding:4px;
+          transition: all .2s ease-in-out;
+          top:-4px;box-shadow:0 4px 3px #999;
+          
+        }
+        
+
+.textoImgS {
+    float: left;
+   
+    display: table-cell;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.pTexto {
+    
+    font-size: 18px;
+
+}
+
+@media screen and (max-device-width: 480px) { 
+
+
+    
+
+    .imgS {
+        width: 300px;
+    }
+    .imagem23 {
+        width: 300px;
+    }
+     .field {
+        width: 300px;
+        margin-left: 10px;
+    }
+    .submit{
+        width: 300px;
+        margin-left: 10px;
+    }
+        
+    .h33 {
+        margin-left: 10px;
+    }
+    .PtextoSobre {
+        margin: 10px;
+        text-align: justify;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+
+}
+
+
+
+.content{display: flex; justify-content: center;}
+.contato{width: 100%; max-width: 500px;}
+.form{display: flex; flex-direction: column;}
+.field{padding: 10px; margin-bottom: 15px; border: 1px solid #DDD; border-radius: 5px; font-size: 16px;}
+.textarea{height: 150px;}
+.submit{font-size: 15px; background-color: #0835a9; color: white; border-radius: 6px;}
+.field{width: 480px;}
+.submit{width: 120px; height: 40px; margin-bottom: 40px;}
+.submit:hover{background-color: #2d51ac;}
